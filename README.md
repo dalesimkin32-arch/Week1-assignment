@@ -14,3 +14,4 @@ added in Facebook and twitter (X) styles to play with and the Social media icons
 added inbox button manipulation styles
 
 added color gradient to box back ground
+adjusted text in on box
