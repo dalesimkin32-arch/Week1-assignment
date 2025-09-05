@@ -12,3 +12,5 @@ added box(es) on top
 added in Facebook and twitter (X) styles to play with and the Social media icons to html
 
 added inbox button manipulation styles
+
+added color gradient to box back ground

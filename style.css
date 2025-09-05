@@ -78,7 +78,8 @@ nav a:hover {
   flex-direction: column;
   gap: 0.9rem;
   max-width: 80%;
-  background-color: green;
+  /* background-color: green; */
+  background: linear-gradient(to bottom left, lightgreen, darkgreen);
   padding: 1rem;
   border: 5 solid olive;
   border-radius: 25px;
