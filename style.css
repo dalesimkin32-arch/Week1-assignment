@@ -24,7 +24,7 @@ header {
 }
 
 footer {
-  color: gold;
+  color: blue;
   /* background-color: navy; */
   background: linear-gradient(to bottom, orange, blue);
   text-align: center;
@@ -58,6 +58,7 @@ nav a:hover {
 
 .peonies {
   background-image: url("./images/peoniesByTS.jpg");
+  background-size: contain;
 }
 
 .thatchedcottage {
@@ -77,8 +78,31 @@ nav a:hover {
   flex-direction: column;
   gap: 0.9rem;
   max-width: 80%;
-  background-color: yellow;
+  background-color: green;
   padding: 1rem;
+  border: 5 solid olive;
+  border-radius: 25px;
+}
+
+.boxButton {
+  padding: 10px;
+  margin: 10px;
+  max-width: 200px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: lightblue;
+  background-color: darkblue;
+}
+
+.boxButton:hover {
+  color: darkblue;
+  background-color: lightblue;
+  opacity: 0.7;
+}
+
+.boxButton:active {
+  color: darkblue;
+  background-color: darkblue;
 }
 
 .fa {
