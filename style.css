@@ -1,3 +1,10 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif
+}
+
 body {
     display:block;
 }
@@ -5,18 +12,26 @@ body {
 header {
     position: fixed;
     color: Orange;
-    background-color: navy;
+    /* background-color: navy; */
+    background: linear-gradient(to bottom, orange, blue);
     padding: 2.5rem 3rem;
     width: 100%;
     z-index: 1;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     gap: 2rem;
-
-
-
 }
+
+footer {
+    color: gold;
+    /* background-color: navy; */
+    background: linear-gradient(to bottom, orange, blue);
+    text-align: center;
+    padding: 40px;
+}
+
+
 
 nav {
     display: flex;
@@ -24,6 +39,15 @@ nav {
     gap: 2rem;
     text-transform: uppercase;
     align-items: center;
+}
+
+nav a {
+    color:yellow;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
 }
 
 .feature {
