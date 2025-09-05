@@ -6,3 +6,5 @@ played with color's and background: linear-gradient to get a nicer background fo
 
 rest of page is 3 background images
 could not find suitable online ones so picked personal images and adjusted size for page.
+
+added box(es) on top

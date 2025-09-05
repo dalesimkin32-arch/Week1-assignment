@@ -1,73 +1,82 @@
 * {
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
-    font-family: 'Times New Roman', Times, serif
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
 }
 
 body {
-    display:block;
+  display: block;
 }
 
 header {
-    position: fixed;
-    color: Orange;
-    /* background-color: navy; */
-    background: linear-gradient(to bottom, orange, blue);
-    padding: 2.5rem 3rem;
-    width: 100%;
-    z-index: 1;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    gap: 2rem;
+  position: fixed;
+  color: Orange;
+  /* background-color: navy; */
+  background: linear-gradient(to bottom, orange, blue);
+  padding: 2.5rem 3rem;
+  width: 100%;
+  z-index: 1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 2rem;
 }
 
 footer {
-    color: gold;
-    /* background-color: navy; */
-    background: linear-gradient(to bottom, orange, blue);
-    text-align: center;
-    padding: 40px;
+  color: gold;
+  /* background-color: navy; */
+  background: linear-gradient(to bottom, orange, blue);
+  text-align: center;
+  padding: 40px;
 }
 
-
-
 nav {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 2rem;
-    text-transform: uppercase;
-    align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  text-transform: uppercase;
+  align-items: center;
 }
 
 nav a {
-    color:yellow;
-    text-decoration: none;
+  color: yellow;
+  text-decoration: none;
 }
 
 nav a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .feature {
-    height:100vh;
-	background-size: cover;
-    background-position: left;
-    border-bottom: white 2px solid;
-	position: relative;
+  height: 100vh;
+  background-size: cover;
+  background-position: left;
+  border-bottom: white 2px solid;
+  position: relative;
 }
 
 .peonies {
-    background-image: url('./images/peoniesByTS.jpg');
-    
+  background-image: url("./images/peoniesByTS.jpg");
 }
 
 .thatchedcottage {
-     background-image: url('./images/thatchedcottage.jpg');
+  background-image: url("./images/thatchedcottage.jpg");
 }
 
 .zerodawn {
-    background-image: url('./images/zerodawn.jpg');
+  background-image: url("./images/zerodawn.jpg");
 }
 
+.boxOnTop {
+  position: absolute;
+  bottom: 10%;
+  left: 3rem;
+  color: navy;
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+  max-width: 80%;
+  background-color: yellow;
+  padding: 1rem;
+}
