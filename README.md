@@ -16,3 +16,4 @@ added inbox button manipulation styles
 added color gradient to box back ground
 adjusted text in on box
 added links to social media pages and open in new tab/window
+footer text changed to black as show's on background better.

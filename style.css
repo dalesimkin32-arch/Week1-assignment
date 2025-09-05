@@ -24,7 +24,7 @@ header {
 }
 
 footer {
-  color: blue;
+  color: black;
   /* background-color: navy; */
   background: linear-gradient(to bottom, orange, blue);
   text-align: center;
