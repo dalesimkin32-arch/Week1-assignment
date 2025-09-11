@@ -5,6 +5,12 @@
   font-family: "Times New Roman", Times, serif;
 }
 
+/* html styling bit missed in submitted task I kept forgetting to add it - recommended by Connor to do so in "marking the task" comments*/
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   display: block;
 }
